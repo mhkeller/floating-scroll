@@ -60,7 +60,8 @@
     </div>
 </div>
 	<script>
-		$('#content-box').boundedScroll('#bounding-box');
+		var $bounding_box = $('#bounding-box')
+		$('#content-box').boundedScroll($bounding_box);
 	</script>
 </body>
 </html>
