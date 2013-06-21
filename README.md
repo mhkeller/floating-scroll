@@ -21,3 +21,7 @@ Set it up
 ````
 $('#content-div').boundedScroll('#bounding-box');
 ````
+
+### Demo
+
+<a href="http://mhkeller.github.io/bounded-scroll/" target="_blank">View demo</a>
