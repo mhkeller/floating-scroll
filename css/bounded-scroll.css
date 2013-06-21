@@ -12,3 +12,6 @@
     bottom: 0;
     z-index: 999;
 }
+.bounded-scroll-bounding-box{
+	position:relative !important;
+}

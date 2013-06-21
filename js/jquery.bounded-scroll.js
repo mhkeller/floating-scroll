@@ -1,8 +1,8 @@
 (function () {
 
-  $.fn.boundedScroll = function(bounder){
-  	var $bounder = $(bounder),
-  			$that     = this;
+  $.fn.boundedScroll = function($bounder){
+    var $that     = this;
+    $bounder.addClass('bounded-scroll-bounding-box');
 
     return this.each(function(){
       function relocate(pixel_depth) {
