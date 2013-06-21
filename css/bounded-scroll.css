@@ -1,0 +1,14 @@
+.bounded-scroll-sticky {
+    z-index: 999;
+}
+.bounded-scroll-sticky.bounded-scroll-stick {
+    position: fixed !important;
+    top: 0;
+    z-index: 999;
+}
+.bounded-scroll-sticky.bounded-scroll-stick.bounded-scroll-stuck {
+    position: absolute !important;
+    top: auto;
+    bottom: 0;
+    z-index: 999;
+}
