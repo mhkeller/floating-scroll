@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>jquery.bounded-scroll.js</title>
-	<link rel="stylesheet" type="text/css" href="css/bounded-scroll.css">
+	<link rel="stylesheet" type="text/css" href="css/floating-scroll.css">
 	<script src="libs/jquery-1.10.1.min.js"></script>
-	<script src="js/jquery.bounded-scroll.js"></script>
+	<script src="js/jquery.floating-scroll.js"></script>
 	<style>
 		#wrapper {
 	    position: relative;
@@ -38,7 +38,7 @@
         <p>Rich in mystery quasar venture. Not a sunrise but a galaxyrise permanence of the stars intelligent beings how far away the only home we've ever known brain is the seed of intelligence. Encyclopaedia galactica billions upon billions Drake Equation cosmos the carbon in our apple pies concept of the number one Apollonius of Perga rings of Uranus Vangelis, globular star cluster rich in mystery across the centuries? Globular star cluster light years billions upon billions descended from astronomers kindling the energy hidden in matter! Hypatia encyclopaedia galactica, from which we spring!</p>
     </div>
     <div id="bounding-box">
-        <div id="content-box" class="sticky">Bounded div.</div>
+        <div id="content-box">Bounded div.</div>
     </div>
     <div id="footer">
 	    <p>Not a sunrise but a galaxyrise cosmic fugue, from which we spring, Apollonius of Perga made in the interiors of collapsing stars. Light years not a sunrise but a galaxyrise hearts of the stars a still more glorious dawn awaits, extraordinary claims require extraordinary evidence. Inconspicuous motes of rock and gas citizens of distant epochs vanquish the impossible, radio telescope, encyclopaedia galactica Orion's sword Hypatia, Cambrian explosion Sea of Tranquility. Descended from astronomers, dispassionate extraterrestrial observer! Concept of the number one across the centuries.</p>
@@ -61,7 +61,7 @@
 </div>
 	<script>
 		var $bounding_box = $('#bounding-box')
-		$('#content-box').boundedScroll($bounding_box);
+		$('#content-box').floatingScroll($bounding_box, 'bounded');
 	</script>
 </body>
 </html>
