@@ -1,8 +1,8 @@
 # Floating Scrolling
 
 A jQuery plugin to determine one of two behaviors for a ``<div>`` on scroll:
-  1. Stick to the top you scroll past it.
-  2. Stick to the top you scroll past it, but be bounded on the bottom by another ``<div>``. 
+  1. Stick to the top after you scroll past it.
+  2. Stick to the top after you scroll past it, but be bounded on the bottom by another ``<div>``. 
 
 To use number two, pass in the string ``'bounded'`` as the second arg to the method ``.floatingScroll()``.
 Option 1 also automatically makes the anchor the height of the content that becomes fixed so that you don't see a jump when that object is taken out of the flow of the layout and made fixed. This is good for most cases but if you're doing absolutely positioned content-boxes to begin with, you might want to comment those extra height assignments from the script.
