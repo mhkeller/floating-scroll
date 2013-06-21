@@ -36,3 +36,7 @@ $('#content-div').floatingScroll('#bounding-box', 'bounded');
 ````
 
 <a href="http://mhkeller.github.io/floating-scroll/bounded-behavior.html" target="_blank">View example of option 2</a>
+
+
+#### ps
+This is a first stab at a jQuery plugin. So if the structure is a bit off in its return this.each() setup, pull requests welcome.
