@@ -18,8 +18,6 @@
             }
         } else {
             $that.removeClass('floating-scroll-stick');
-            if(bounded != 'bounded'){
-            }
         };
 
         if (bounded == 'bounded'){
