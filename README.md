@@ -1,10 +1,11 @@
 # Floating Scrolling
 
 A jQuery plugin to determine one of two behaviors for a ``<div>`` on scroll:
-1. Stick to the top after a certain depth.
-2. Stick to the top after a certain depth, but be bounded on the bottom by another ``<div>``. 
+  1. Stick to the top after a certain depth.
+  2. Stick to the top after a certain depth, but be bounded on the bottom by another ``<div>``. 
 
-To use number two, pass in the string ``'bounded'`` as the second arg to the method ``.floatingScroll()''.
+To use number two, pass in the string ``'bounded'`` as the second arg to the method ``.floatingScroll()``.
+Option 1 also automatically makes the anchor the height of the content that becomes fixed so that you don't see a jump when that object is taken out of the flow of the layout and made fixed. This is good for most cases but if you're doing absolutely positioned content-boxes to begin with, you might want to comment those extra height assignments from the script.
 
 ### Usage
 
@@ -26,9 +27,7 @@ Set it up, Option 1, normal sticky behavior
 $('#content-div').floatingScroll('#anchor-box');
 ````
 
-### Demo
-
-<a href="http://mhkeller.github.io/floating-scroll/anchor-behavior.html" target="_blank">View demo</a>
+<a href="http://mhkeller.github.io/floating-scroll/anchor-behavior.html" target="_blank">View example of option 1</a>
 
 Set it up, Option 2, bounded sticky behavior
 
@@ -36,6 +35,4 @@ Set it up, Option 2, bounded sticky behavior
 $('#content-div').floatingScroll('#bounding-box', 'bounded');
 ````
 
-### Demo
-
-<a href="http://mhkeller.github.io/floating-scroll/bounded-behavior.html" target="_blank">View demo</a>
+<a href="http://mhkeller.github.io/floating-scroll/bounded-behavior.html" target="_blank">View example of option 2</a>
